@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Learn JavaScript</title>
+    <script>
+        window.onload = function () {
+            console.log( document.getElementsByTagName( "a" ) );
+            console.log( document.getElementsByTagName( "a" )[ 0 ].className );
+            for ( let i = 0; i < document.getElementsByTagName( "a" ).length; i++ ) {
+                if ( ( document.getElementsByTagName( "a" )[ i ].href == "https://elzero.org/" ) && ( document.getElementsByTagName( "a" )[ i ].className == "open" ) ) {
+                    window.open( document.getElementsByTagName( "a" )[ i ].href );
+
+                    // document.getElementsByTagName( "a" )[ i ].setTimeout(() => {
+
+                    // }, 2000);
+                }
+
+            }
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <a class="open" href="https://google.com">Google</a>
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <a class="linked" href="https://linkedin.com">Elzero</a>
+    <script src="main.js"></script>
+</body>
+
+</html>
