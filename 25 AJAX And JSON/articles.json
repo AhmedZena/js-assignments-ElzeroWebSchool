@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "author": "John Doe",
+        "category": "Technology",
+        "title": "The Future of Technology",
+        "content": "Exploring the latest trends and innovations in the tech industry."
+    },
+    {
+        "id": 2,
+        "author": "Alice Smith",
+        "category": "Environment",
+        "title": "Innovations in Renewable Energy",
+        "content": "A deep dive into new renewable energy sources revolutionizing our world."
+    },
+    {
+        "id": 3,
+        "author": "Raj Patel",
+        "category": "Space Exploration",
+        "title": "Exploring Space: New Frontiers",
+        "content": "The new age of space exploration and its potential impacts."
+    },
+    {
+        "id": 4,
+        "author": "Maria Garcia",
+        "category": "Health",
+        "title": "Advances in Medical Research",
+        "content": "Groundbreaking discoveries and advancements in medical science."
+    },
+    {
+        "id": 5,
+        "author": "Chen Wang",
+        "category": "Artificial Intelligence",
+        "title": "The Impact of AI on Society",
+        "content": "How AI is shaping various aspects of our daily lives and future."
+    }
+]
